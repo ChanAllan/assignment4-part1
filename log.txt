@@ -1,3 +1,7 @@
 Start: Wed, 29 Apr 2015 21:10:00 -0700
-End: Wed, 29 Apr 2015 
+End: Wed, 29 Apr 2015 21:18:41 -0700
 Tasks: Cloned repository and pushed into my repository.
+
+Start: Wed, 29 Apr 2015 22:30:00 -0700
+End: THu, 30 Apr 2015 01:46:07 -0700
+Tasks: Created all files. Worked on login.php and included a form. Worked on multtable.php and included input validation and a table algorithm. Still need to test if algorithm is correct. Included basic html skeleton in content1.php, content2.php and loopback.php.
