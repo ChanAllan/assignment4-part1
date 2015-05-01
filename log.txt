@@ -9,3 +9,7 @@ Tasks: Created all files. Worked on login.php and included a form. Worked on mul
 Start: Thu, 30 Apr 2015 15:00:00 -0700
 End: Thu, 30 Apr 2015 20:57:21 -0700
 Tasks: Continued working on all files and created logout.php for clearing session data. Still need to check for errors in multtable.php and need to work on loopback.php
+
+Start: Thu, 30 Apr 2015 23:30:00 -0700
+End: Fri May 1 2015 02:10:29 2015 -0700
+Tasks: Corrected some errors in multtable.php and the rest will be corrected later. Worked on loopback.php and reviewed sources during this time.
