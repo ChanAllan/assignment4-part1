@@ -5,3 +5,7 @@ Tasks: Cloned repository and pushed into my repository.
 Start: Wed, 29 Apr 2015 22:30:00 -0700
 End: THu, 30 Apr 2015 01:46:07 -0700
 Tasks: Created all files. Worked on login.php and included a form. Worked on multtable.php and included input validation and a table algorithm. Still need to test if algorithm is correct. Included basic html skeleton in content1.php, content2.php and loopback.php.
+
+Start: Thu, 30 Apr 2015 15:00:00 -0700
+End: Thu, 30 Apr 2015 20:57:21 -0700
+Tasks: Continued working on all files and created logout.php for clearing session data. Still need to check for errors in multtable.php and need to work on loopback.php
