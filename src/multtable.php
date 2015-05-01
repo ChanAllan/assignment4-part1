@@ -77,7 +77,7 @@ $wide = $max_multiplier - $min_multiplier + 2;
 echo '<table id="mult_table">';
 echo '<label>Multiplication Table</label>';
 
-for($i = 0; i < $tall; $i++) {
+for($i = 0; $i < $tall; $i++) {
 	$row_multiplicand = $min_multiplicand + $i - 1;	
 	echo '<tr>';
 
@@ -87,7 +87,7 @@ for($i = 0; i < $tall; $i++) {
 		echo '<td>$row_multiplicand';
 	}
 
-	for($j = 0; j < $wide; $j++) {
+	for($j = 0; $j < $wide; $j++) {
 	  $col_multiplier = $min_multiplier + $j - 1;
       
       if($i == 0) {
