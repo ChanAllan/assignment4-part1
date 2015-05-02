@@ -13,3 +13,7 @@ Tasks: Continued working on all files and created logout.php for clearing sessio
 Start: Thu, 30 Apr 2015 23:30:00 -0700
 End: Fri May 1 2015 02:10:29 2015 -0700
 Tasks: Corrected some errors in multtable.php and the rest will be corrected later. Worked on loopback.php and reviewed sources during this time.
+
+Start: Fri, 1 May 2015 23:00:00 -0700
+End: Sat, 2 May 2 01:23:20 2015 -0700
+Tasks: Corrected the remaining errors in multtable.php. The multtable.php works with values passed via GET method. style.css contains adding borders to the multiplication table. I also reviewed some resources during this time.
