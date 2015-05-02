@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+//header('Content-Type: text/plain');
+
+echo '<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <link href="style.css" rel="stylesheet" type="text/css">
   <title>Assignment4-Part1: multtable</title>
 </head>
-<body>
-
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-//header('Content-Type: text/plain');
+<body>';
 
 /*This function was obtained from a commenter (Simon Neaves) on php.net on
 the functions is_int page (http://php.net/manual/en/function.is-int.php).
@@ -71,37 +71,40 @@ if($min_multiplier > $max_multiplier) {
 
 /*Set variables to prepare for table where left of table will be the multiplicand
 and the top of table will be the multiplier*/
-$tall = $max_multiplicand - $min_multiplicand + 2;
-$wide = $max_multiplier - $min_multiplier + 2;
+$tall = ($max_multiplicand - $min_multiplicand) + 2;
+$wide = ($max_multiplier - $min_multiplier) + 2;
 
 echo '<table id="mult_table">';
-echo '<label>Multiplication Table</label>';
+echo '<caption>Multiplication Table</caption>';
 
 for($i = 0; $i < $tall; $i++) {
-	$row_multiplicand = $min_multiplicand + $i - 1;	
+	$row_multiplicand = $min_multiplicand + $i -1;	
 	echo '<tr>';
 
-	if($i == 0) {
+	if($i === 0) {
 		echo '<td>';
 	} else {
-		echo '<td>$row_multiplicand';
+		echo "<td>$row_multiplicand";
 	}
 
 	for($j = 0; $j < $wide; $j++) {
-	  $col_multiplier = $min_multiplier + $j - 1;
+	  $col_multiplier = $min_multiplier + $j -1;
       
-      if($i == 0) {
-      	echo '<td>$col_multiplier';
-      } 
       if($j > 0) {
-      	$product = $row_multiplicand * $col_multiplier;
-      	echo '<td>$product';
-      }
+        if($i === 0) {
+      	  echo "<td>$col_multiplier";
+        } else {
+          $product = $row_multiplicand * $col_multiplier;
+          echo "<td>$product";      
+        }
+      } 
 	}
 }
 echo '</table>';
 
-?>
 
-</body>
-</html>
+
+echo '</body>
+</html>';
+
+?>
