@@ -15,5 +15,9 @@ End: Fri May 1 2015 02:10:29 2015 -0700
 Tasks: Corrected some errors in multtable.php and the rest will be corrected later. Worked on loopback.php and reviewed sources during this time.
 
 Start: Fri, 1 May 2015 23:00:00 -0700
-End: Sat, 2 May 2 01:23:20 2015 -0700
+End: Sat, 2 May 2 2015 01:23:20 -0700
 Tasks: Corrected the remaining errors in multtable.php. The multtable.php works with values passed via GET method. style.css contains adding borders to the multiplication table. I also reviewed some resources during this time.
+
+Start: Sat, 2 May 2015 22:00:00 -0700
+End: Sat, 2 May 2015 23:07:57 -0700
+Tasks: Corrected all remaining errors in the assignment which was not shown on local server, but was shown on the live server (html_public). login.php now works with content1.php and content2.php for displaying the correct values. Logging out and clearing sessions now works. multtable.php and loopback.php works as expected.
