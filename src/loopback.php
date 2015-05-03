@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <link href="style.css" rel="stylesheet" type="text/css">
-  <title>Assignment4-Part1: loopback</title>
-</head>
-<body>
-
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 /*Set parameter and arr as an empty array*/
 $type;
 $parameter = array();
@@ -52,11 +47,3 @@ to use json encode function for an associative array output as object*/
 echo json_encode($arr, JSON_FORCE_OBJECT), "\n\n";
 
 ?>
-
-
-
-
-
-
-</body>
-</html>
